@@ -5,9 +5,9 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/aaa?useSSL=false&nullCatalogMeansCurrent=true
+    url: jdbc:mysql://127.0.0.1:3306/oa?useSSL=false&nullCatalogMeansCurrent=true
     username: root
-    password: zhang1992
+    password: 密码
 
   thymeleaf:
     cache: false
